@@ -17,6 +17,8 @@
 
 Our project features a 4-wheeled, multi-purpose autonomous mobile robot designed to explore and monitor unknown environments. Equipped with advanced navigation and mapping capabilities, the robot autonomously navigates and avoids obstacles while accurately mapping its surroundings.
 
+![ROBOT](https://github.com/user-attachments/assets/9ad4eae4-ded7-4ce2-a93c-98acad7d4e1a)
+
 ## Key Features
 
 - **Obstacle Avoidance**: Utilizing ultrasonic radar sensors, the robot detects and avoids obstacles, ensuring smooth and safe operation.
