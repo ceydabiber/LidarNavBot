@@ -107,7 +107,7 @@ Overall, the static force analysis confirms that the robot body is robust enough
 To test and refine the differential drive system, we created a simulation environment using **ROS (Robot Operating System)** and **Gazebo**. This simulation allowed us to develop and evaluate control algorithms and sensor integration without involving physical testing.
 
 ### Simulation Setup
-
+You may refer to the **Differential_Drive_Robot_Gazebo** folder for further instructions on implementation.
 - **Model Creation**: We designed a URDF (Unified Robot Description Format) model that closely represents the real robot, including:
     - A rectangular chassis
     - Four wheels
@@ -128,7 +128,7 @@ To test and refine the differential drive system, we created a simulation enviro
 
 The robot’s electrical system integrates sensors, cameras, and controllers to ensure efficient operation. This includes components like the **HC-SR04 ultrasonic sensors**, **ESP-32 CAM**, **Arduino Uno**, and **Jetson Nano**, all powered by dedicated battery systems.
 
-For detailed information on the wiring and interconnections, as well as any necessary circuitry, please refer to the **Circuit Diagram** and the accompanying **circuits folder** provided in the repository.
+For detailed information on the wiring and interconnections, as well as any necessary circuitry, please refer to the **Circuit Diagram** and the accompanying **Circuits** folder provided in the repository.
 
 # Software
 
@@ -174,8 +174,7 @@ We conducted mapping tests in various environments, including both indoor and ou
 
 ![Open_field_test](https://github.com/user-attachments/assets/6ac13dd1-bbf8-4653-8c38-aaf886461995)
 
-For detailed steps on LiDAR setup and map saving, refer to the **SLAM** folderin the repository.
-As for all the maps obtained by the robot you may refer to the Results foder in the repository
+For detailed steps on LiDAR setup, SLAM algorithm and map saving, refer to the **SLAM** folder in the repository. For all the maps obtained by the robot, refer to the **Results** folder in the repository.
 
 ## Documentation
 
