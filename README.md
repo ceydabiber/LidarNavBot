@@ -26,6 +26,8 @@ Our project features a 4-wheeled, multi-purpose autonomous mobile robot designed
 
 Our 4-wheeled autonomous robot is designed to explore and monitor unknown environments with advanced navigation and mapping capabilities. The robot is built with a combination of sensors, cameras, and controllers that work together to ensure efficient operation.
 
+![System_overview_diagram](https://github.com/user-attachments/assets/210edcfc-108c-4a21-a2b8-0c8bd1017ad0)
+
 ### Components and Interaction
 
 - **YDLidar X2**: This LiDAR sensor provides accurate environmental mapping by scanning and generating detailed maps of the surroundings. It plays a crucial role in the SLAM (Simultaneous Localization and Mapping) system.
@@ -37,6 +39,8 @@ Our 4-wheeled autonomous robot is designed to explore and monitor unknown enviro
     - **9V Batteries**: Power the sensors and other auxiliary components.
     - **15V LiPo Battery**: Provides power to the motors, ensuring the robot can move effectively.
 
+![Circuit](https://github.com/user-attachments/assets/3eb8209a-0fb2-4888-8e23-7f72e4e90425)
+
 # Mechanical Design
 
 This section presents the technical drawings, 3D models, and an image of the assembled robot.
@@ -44,8 +48,14 @@ This section presents the technical drawings, 3D models, and an image of the ass
 ### Technical Drawings and 3D Models
 
 - The technical drawings for the robot’s mechanical parts are provided for reference
+
+![technical_drawing_bottom](https://github.com/user-attachments/assets/8f066ca4-24e8-45f6-a02b-9962a602e047)
+![technical_drawing_top](https://github.com/user-attachments/assets/f010f87d-3119-4cd5-9547-5d72d1f7c6cb)
+
 - The 3D models of the robot's components, including the full assembly, can be found in the provided CAD files folder (.stl fils are provided as well). These files can be used for 3D printing or further analysis.
 - Below is an image of the completed robot assembly.
+
+![robot_assembly](https://github.com/user-attachments/assets/4798660f-6885-451a-8bbb-8c6f4d6269dc)
 
 ## Static Force Analysis
 
@@ -76,7 +86,12 @@ These scenarios were created based on estimated weights and drop heights of obje
 The analysis provided insights into the robot’s structural integrity under various force conditions:
 
 - **Deformation**: The total deformation values were measured for minimum and maximum applied forces. The highest deformation occurred at the points of force application, indicating areas that are most affected by impacts.
+
+![deformation](https://github.com/user-attachments/assets/502507b2-875c-48e6-bb64-d2401ef2205e)
+
 - **Von Mises Stress**: The von Mises stress distribution was evaluated to identify critical stress regions. The material properties remained within acceptable limits, ensuring the structural integrity of the robot body.
+
+![stress](https://github.com/user-attachments/assets/e5a48d3f-5d7a-40ec-9dc5-c26a25356005)
 
 **Results Summary**:
 
@@ -153,7 +168,11 @@ We conducted mapping tests in various environments, including both indoor and ou
 
 - **Indoor Spaces**: The system provided detailed maps and accurate localization in confined environments.
 
+![Dorm_room](https://github.com/user-attachments/assets/bb41b5d3-084d-42b7-91e1-dd4321927764)
+
 - **Outdoor Areas**: As excepted the SLAM didn’t perform quite well in large open spaces.
+
+![Open_field_test](https://github.com/user-attachments/assets/6ac13dd1-bbf8-4653-8c38-aaf886461995)
 
 For detailed steps on LiDAR setup and map saving, refer to the **SLAM** folderin the repository.
 As for all the maps obtained by the robot you may refer to the Results foder in the repository
