@@ -128,7 +128,7 @@ To test and refine the differential drive system, we created a simulation enviro
 
 The robot’s electrical system integrates sensors, cameras, and controllers to ensure efficient operation. This includes components like the **HC-SR04 ultrasonic sensors**, **ESP-32 CAM**, **Arduino Uno**, and **Jetson Nano**, all powered by dedicated battery systems.
 
-For detailed information on the wiring and interconnections, as well as any necessary circuitry, please refer to the **Circuit Diagram** and the accompanying **circuit file** provided in the repository.
+For detailed information on the wiring and interconnections, as well as any necessary circuitry, please refer to the **Circuit Diagram** and the accompanying **circuits folder** provided in the repository.
 
 # Software
 
