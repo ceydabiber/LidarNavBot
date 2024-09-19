@@ -1,0 +1,2 @@
+robot_model_pkg
+-DPYTHON_EXECUTABLE=/usr/bin/python3 -DCATKIN_DEVEL_PREFIX=/home/ceyda/robot_four/devel -DCMAKE_INSTALL_PREFIX=/home/ceyda/robot_four/install -G Unix Makefiles
